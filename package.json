@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Responsive Portfolio website",
   "main": "index.js",
-  "homepage": "https://github.com/sonichandni/sonichandni.github.io/tree/master/dist",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
