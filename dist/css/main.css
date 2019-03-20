@@ -271,6 +271,21 @@ main {
   main#home h1 {
     margin-top: 10vh; }
     main#home h1.lg-heading {
-      font-size: 3rem; }
+      font-size: 4rem; }
+  main#about h1 {
+    margin-top: 10vh; }
+    main#about h1.lg-heading {
+      font-size: 4rem; }
+  main#work h1 {
+    margin-top: 10vh; }
+    main#work h1.lg-heading {
+      font-size: 4rem; }
+  main#contact h1 {
+    margin-top: 10vh; }
+    main#contact h1.lg-heading {
+      font-size: 4rem; }
+  .bio p {
+    font-size: 1.3rem;
+    text-align: justify; }
   .projects {
     grid-template-columns: 1fr; } }

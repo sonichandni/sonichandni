@@ -60,6 +60,7 @@
         'job3';
         grid-template-columns: 1fr;
     }
+
     .projects {
         grid-template-columns: repeat(2, 1fr);
     }  
@@ -70,8 +71,30 @@
     main#home h1 {
         margin-top: 10vh;
         &.lg-heading {
-            font-size: 3rem;
+            font-size: 4rem;
         }
+    }
+    main#about h1 {
+        margin-top: 10vh;
+        &.lg-heading {
+            font-size: 4rem;
+        }
+    }
+    main#work h1 {
+        margin-top: 10vh;
+        &.lg-heading {
+            font-size: 4rem;
+        }
+    }
+    main#contact h1 {
+        margin-top: 10vh;
+        &.lg-heading {
+            font-size: 4rem;
+        }
+    }
+    .bio p{
+        font-size: 1.3rem;
+        text-align: justify;
     }
     .projects {
         grid-template-columns: 1fr;
