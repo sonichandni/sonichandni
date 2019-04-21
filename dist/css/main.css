@@ -173,6 +173,9 @@ main {
     padding: 0.5rem;
     border-bottom: 5px solid #eece1a; }
 
+#dd {
+  color: #ecdd0c; }
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;
@@ -227,7 +230,7 @@ main {
   padding: 1rem;
   background: #2b2b2b;
   color: #fff;
-  height: 60px; }
+  height: 90px; }
 
 @media screen and (min-width: 1171px) {
   .projects {
@@ -265,7 +268,12 @@ main {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  .boxes {
+    margin-top: 0.3rem;
+    align-items: center; }
+    .boxes div {
+      font-size: 1rem; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
@@ -288,4 +296,9 @@ main {
     font-size: 1.3rem;
     text-align: justify; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .boxes {
+    margin-top: 0.3rem;
+    align-items: center; }
+    .boxes div {
+      font-size: 1rem; } }

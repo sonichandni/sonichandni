@@ -109,6 +109,10 @@ main {
     }
 }
 
+#dd {
+    color:#ecdd0c;
+}
+
 //work/projects
 .projects {
     display: grid;
@@ -179,7 +183,7 @@ main {
     padding: 1rem;
     background: darken($primary-color,10);
     color: set-text-color($primary-color);
-    height: 60px;
+    height: 90px;
 }
 
 
