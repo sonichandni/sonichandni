@@ -9,6 +9,7 @@
   "author": "Chandni Soni",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.11.0"
+    "bootstrap": "^4.3.1",
+    "node-sass": "^4.12.0"
   }
 }
